@@ -1,0 +1,22 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" fill="#1C1917"/>
+  <rect x="48" y="38" width="804" height="484" rx="32" fill="#0C0A09"/>
+  <rect x="84" y="72" width="118" height="18" rx="9" fill="#FFFFFF"/>
+  <rect x="500" y="76" width="62" height="10" rx="5" fill="#78716C"/>
+  <rect x="588" y="76" width="62" height="10" rx="5" fill="#78716C"/>
+  <rect x="676" y="76" width="62" height="10" rx="5" fill="#78716C"/>
+  <rect x="84" y="146" width="350" height="294" rx="30" fill="#1C1917"/>
+  <rect x="118" y="184" width="88" height="18" rx="9" fill="#F97316"/>
+  <text x="118" y="256" fill="#FFFFFF" font-family="Inter,Arial" font-size="48" font-weight="900">DELICIOUS FOOD</text>
+  <text x="118" y="314" fill="#FFFFFF" font-family="Inter,Arial" font-size="48" font-weight="900">MADE FOR YOU</text>
+  <rect x="118" y="358" width="142" height="42" rx="21" fill="#F97316"/>
+  <circle cx="620" cy="300" r="154" fill="#292524"/>
+  <circle cx="620" cy="300" r="124" fill="#451A03"/>
+  <circle cx="620" cy="300" r="96" fill="#FDBA74"/>
+  <path d="M536 300C572 246 666 246 704 300C668 354 574 354 536 300Z" fill="#7C2D12"/>
+  <circle cx="580" cy="292" r="18" fill="#DC2626"/>
+  <circle cx="636" cy="286" r="16" fill="#16A34A"/>
+  <circle cx="668" cy="318" r="18" fill="#FACC15"/>
+  <circle cx="604" cy="332" r="14" fill="#EF4444"/>
+  <path d="M480 200C548 150 694 140 760 220" stroke="#FB923C" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+</svg>

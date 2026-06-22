@@ -1,0 +1,28 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" fill="#07111F"/>
+  <rect x="54" y="42" width="792" height="476" rx="30" fill="#0B1220"/>
+  <rect x="86" y="72" width="122" height="18" rx="9" fill="#FFFFFF"/>
+  <rect x="498" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="586" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="674" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="86" y="142" width="320" height="292" rx="26" fill="#111827"/>
+  <rect x="120" y="180" width="92" height="16" rx="8" fill="#3B82F6"/>
+  <text x="120" y="246" fill="#FFFFFF" font-family="Inter,Arial" font-size="44" font-weight="900">WE BUILD</text>
+  <text x="120" y="294" fill="#FFFFFF" font-family="Inter,Arial" font-size="44" font-weight="900">BETTER</text>
+  <text x="120" y="342" fill="#FFFFFF" font-family="Inter,Arial" font-size="44" font-weight="900">BUSINESSES</text>
+  <rect x="120" y="378" width="142" height="42" rx="21" fill="#2563EB"/>
+  <rect x="438" y="126" width="330" height="352" rx="28" fill="#020617"/>
+  <path d="M472 438V234L542 202V438H472Z" fill="#1E40AF"/>
+  <path d="M558 438V160L642 130V438H558Z" fill="#334155"/>
+  <path d="M660 438V244L732 212V438H660Z" fill="#1D4ED8"/>
+  <g opacity="0.9">
+    <rect x="490" y="260" width="20" height="12" fill="#93C5FD"/>
+    <rect x="490" y="294" width="20" height="12" fill="#93C5FD"/>
+    <rect x="578" y="196" width="22" height="12" fill="#E0F2FE"/>
+    <rect x="578" y="230" width="22" height="12" fill="#E0F2FE"/>
+    <rect x="680" y="278" width="20" height="12" fill="#BFDBFE"/>
+    <rect x="680" y="312" width="20" height="12" fill="#BFDBFE"/>
+  </g>
+  <circle cx="750" cy="124" r="96" fill="#2563EB" opacity="0.22"/>
+  <circle cx="520" cy="486" r="120" fill="#7C3AED" opacity="0.18"/>
+</svg>

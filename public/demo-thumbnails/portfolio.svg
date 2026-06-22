@@ -1,0 +1,20 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" fill="#111827"/>
+  <rect x="48" y="38" width="804" height="484" rx="32" fill="#020617"/>
+  <rect x="84" y="72" width="118" height="18" rx="9" fill="#FFFFFF"/>
+  <rect x="500" y="76" width="62" height="10" rx="5" fill="#475569"/>
+  <rect x="588" y="76" width="62" height="10" rx="5" fill="#475569"/>
+  <rect x="676" y="76" width="62" height="10" rx="5" fill="#475569"/>
+  <rect x="84" y="144" width="330" height="296" rx="30" fill="#111827"/>
+  <rect x="118" y="182" width="82" height="18" rx="9" fill="#8B5CF6"/>
+  <text x="118" y="254" fill="#FFFFFF" font-family="Inter,Arial" font-size="48" font-weight="900">WE DESIGN</text>
+  <text x="118" y="312" fill="#FFFFFF" font-family="Inter,Arial" font-size="48" font-weight="900">BRANDS</text>
+  <rect x="118" y="356" width="142" height="42" rx="21" fill="#7C3AED"/>
+  <circle cx="614" cy="286" r="148" fill="#1E293B"/>
+  <circle cx="614" cy="286" r="102" fill="#0F172A"/>
+  <path d="M532 292C572 218 654 206 704 266C664 244 630 256 604 300C580 338 552 352 510 340C518 326 524 310 532 292Z" fill="#7C3AED"/>
+  <path d="M640 206C690 214 730 254 740 304C708 284 680 292 658 328C636 364 600 390 550 382C606 354 636 296 640 206Z" fill="#FB923C"/>
+  <circle cx="616" cy="286" r="34" fill="#FFFFFF"/>
+  <circle cx="616" cy="286" r="15" fill="#111827"/>
+  <rect x="704" y="394" width="74" height="74" rx="24" fill="#8B5CF6" opacity="0.75"/>
+</svg>

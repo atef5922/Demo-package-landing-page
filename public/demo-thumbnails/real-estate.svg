@@ -1,0 +1,21 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" fill="#E0F2FE"/>
+  <rect x="48" y="38" width="804" height="484" rx="32" fill="#0F172A"/>
+  <rect x="84" y="72" width="118" height="18" rx="9" fill="#FFFFFF"/>
+  <rect x="500" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="588" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="676" y="76" width="62" height="10" rx="5" fill="#64748B"/>
+  <rect x="84" y="146" width="322" height="286" rx="30" fill="#172554"/>
+  <rect x="118" y="184" width="92" height="18" rx="9" fill="#38BDF8"/>
+  <text x="118" y="256" fill="#FFFFFF" font-family="Inter,Arial" font-size="46" font-weight="900">FIND YOUR</text>
+  <text x="118" y="312" fill="#FFFFFF" font-family="Inter,Arial" font-size="46" font-weight="900">DREAM HOME</text>
+  <rect x="118" y="356" width="142" height="42" rx="21" fill="#2563EB"/>
+  <path d="M450 446V270L578 166L704 270V446H450Z" fill="#1E3A8A"/>
+  <path d="M578 166L742 300H704L578 198L452 300H414L578 166Z" fill="#38BDF8"/>
+  <rect x="498" y="308" width="68" height="54" rx="8" fill="#BAE6FD"/>
+  <rect x="596" y="308" width="68" height="54" rx="8" fill="#BAE6FD"/>
+  <rect x="560" y="378" width="62" height="68" rx="10" fill="#0F172A"/>
+  <path d="M704 446V330L766 362V446H704Z" fill="#334155"/>
+  <circle cx="750" cy="158" r="66" fill="#FACC15" opacity="0.9"/>
+  <path d="M432 446H794" stroke="#22C55E" stroke-width="18" stroke-linecap="round"/>
+</svg>
