@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from "lucide-react";
 import { Container } from "@/components/common/Container";
-import { Button } from "@/components/ui/button";
 import { createWhatsAppLink, siteConfig } from "@/lib/site";
 
 const quickLinks = [
@@ -97,11 +96,6 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-slate-400 sm:flex-row">
           <p>© 2026 Mugnee IT Solutions. All Rights Reserved.</p>
-          <Button asChild variant="whatsapp" size="icon" className="fixed bottom-5 right-5 z-40 rounded-full shadow-xl">
-            <a href={whatsappLink} target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
-              <MessageCircle className="h-5 w-5" />
-            </a>
-          </Button>
         </div>
       </Container>
     </footer>

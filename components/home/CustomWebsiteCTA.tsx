@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, Code2, LayoutDashboard, MessageCircle, Phone } from "lucide-react";
+import { ArrowRight, Code2, LayoutDashboard, MessageCircle } from "lucide-react";
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/ui/button";
-import { createWhatsAppLink, siteConfig } from "@/lib/site";
+import { createWhatsAppLink } from "@/lib/site";
 
 export function CustomWebsiteCTA() {
   const customLink = createWhatsAppLink(
@@ -54,16 +54,6 @@ export function CustomWebsiteCTA() {
                     <a href={customLink} target="_blank" rel="noreferrer">
                       Talk on WhatsApp
                       <MessageCircle className="h-4 w-4" />
-                    </a>
-                  </Button>
-                  <Button
-                    asChild
-                    variant="secondary"
-                    className="rounded-2xl border border-slate-300 bg-white text-slate-800 hover:bg-slate-50"
-                  >
-                    <a href={siteConfig.phoneHref}>
-                      Call Now
-                      <Phone className="h-4 w-4" />
                     </a>
                   </Button>
                 </div>

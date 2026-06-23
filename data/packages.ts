@@ -56,7 +56,7 @@ export const websitePackages: WebsitePackage[] = [
       "Free SSL Security (HTTPS)",
       "Free 1 Year Hosting + .COM Domain",
       "Free AI-Powered Live Chat",
-      "Free WhatsApp Integration"
+      "1 Month Support"
     ],
     accent: "orange"
   },
@@ -80,7 +80,7 @@ export const websitePackages: WebsitePackage[] = [
       "Free SSL Security (HTTPS)",
       "Free 1 Year Hosting + .COM Domain",
       "Free AI-Powered Live Chat",
-      "Free WhatsApp Integration"
+      "1 Month Support"
     ],
     badge: "Most Popular",
     highlighted: true,

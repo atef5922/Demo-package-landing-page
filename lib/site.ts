@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Mugnee IT Solutions",
   shortName: "Mugnee",
-  phoneDisplay: "+880 1234-567890",
-  phoneHref: "tel:+8801234567890",
-  whatsappDisplay: "+880 1234-567890",
-  whatsappNumber: "8801234567890",
+  phoneDisplay: "+880 1958-645415",
+  phoneHref: "tel:+8801958645415",
+  whatsappDisplay: "+880 1958-645415",
+  whatsappNumber: "8801958645415",
   email: "hello@mugneeit.com",
   location: "Dhaka, Bangladesh"
 };
