@@ -42,7 +42,7 @@ export const websiteDemos: WebsiteDemo[] = [
     category: "Ecommerce",
     description:
       "Complete online store solution featuring product catalog, shopping cart, secure checkout, and mobile-first design.",
-    thumbnail: "/demo-thumbnails/babay%20mart.png",
+    thumbnail: "/demo-thumbnails/babay%20mart.webp",
     demoUrl: "https://baby-mart-nu.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
     isFeatured: true
@@ -54,7 +54,7 @@ export const websiteDemos: WebsiteDemo[] = [
     category: "Ecommerce",
     description:
       "Premium eCommerce website for home appliances, electronics, and smart living products with a modern shopping experience.",
-    thumbnail: "/demo-thumbnails/home%20appliances.png",
+    thumbnail: "/demo-thumbnails/home%20appliances.webp",
     demoUrl: "https://nexora-home-appliances.vercel.app/",
     features: ["About", "Services", "Contact"],
     isFeatured: true
@@ -66,7 +66,7 @@ export const websiteDemos: WebsiteDemo[] = [
     category: "Ecommerce",
     description:
       "Modern eCommerce website for smartphones, laptops, headphones, smart devices, and electronic accessories with a seamless shopping experience.",
-    thumbnail: "/demo-thumbnails/electro-mart.png",
+    thumbnail: "/demo-thumbnails/electro-mart.webp",
     demoUrl: "https://amarbazar-ecommerce.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
     isFeatured: true
@@ -78,12 +78,24 @@ export const websiteDemos: WebsiteDemo[] = [
     category: "Ecommerce",
     description:
       "Modern online fashion store designed for clothing, footwear, accessories, and lifestyle brands with a premium shopping experience.",
-    thumbnail: "/demo-thumbnails/fashion.png",
+    thumbnail: "/demo-thumbnails/fashion.webp",
     demoUrl: "https://fashion-ecommerce-12xplxipr-sifat15-5922-2244s-projects.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
     isFeatured: true,
     previewMode: "image",
     isLiveDemoAvailable: false
+  },
+  {
+    id: "demo-011",
+    slug: "madrasa-website",
+    title: "Madrasa Website",
+    category: "Education",
+    description:
+      "A modern and feature-rich website solution for madrasas and Islamic educational institutions, designed to manage admissions, courses, notices, events, galleries, and student information professionally.",
+    thumbnail: "/demo-thumbnails/madrasa.webp",
+    demoUrl: "https://islamic-institute-website.vercel.app/",
+    features: ["Admissions", "Courses", "Notices", "Events", "Gallery"],
+    isFeatured: true
   },
   {
     id: "demo-004",
@@ -92,20 +104,9 @@ export const websiteDemos: WebsiteDemo[] = [
     title: "Inovexa \u2013 Business & Digital Solutions",
     description:
       "Professional business Portfolio website for digital agencies, consulting firms, startups, and corporate organizations focused on growth, innovation, and lead generation.",
-    thumbnail: "/demo-thumbnails/innovexa%20business.png",
+    thumbnail: "/demo-thumbnails/innovexa%20business.webp",
     demoUrl: "https://business-portfolio-website-eight.vercel.app/",
     features: ["Doctors", "Departments", "Contact"],
     isFeatured: true
-  },
-  {
-    id: "demo-007",
-    slug: "business-portfolio-website",
-    title: "Business Portfolio Website",
-    category: "Portfolio",
-    description: "Portfolio website for agencies, freelancers and studios.",
-    thumbnail: "/demo-thumbnails/portfolio.svg",
-    demoUrl: "https://example.com/demo/portfolio",
-    features: ["Portfolio", "About", "Contact"],
-    isFeatured: false
   }
 ];

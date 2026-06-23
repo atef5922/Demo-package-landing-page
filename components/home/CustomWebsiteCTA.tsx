@@ -91,7 +91,7 @@ export function CustomWebsiteCTA() {
                         <span className="bg-green-400" />
                       </div>
                       <Image
-                        src="/demo-thumbnails/crm-landing.svg"
+                        src="/demo-thumbnails/crm-landing.webp"
                         alt="Custom CRM website mockup"
                         width={820}
                         height={470}
