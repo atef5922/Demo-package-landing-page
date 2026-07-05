@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Mugnee IT Solutions | Ready Website Demos & Packages",
   description:
-    "Explore ready-made website demos, ecommerce packages, portfolio websites, and custom development services from Mugnee IT Solutions.",
+    "Explore ready-made website demos, E-Commerce packages, portfolio websites, and custom development services from Mugnee IT Solutions.",
   metadataBase: new URL("https://websites.mugneeit.com"),
   icons: {
     icon: [

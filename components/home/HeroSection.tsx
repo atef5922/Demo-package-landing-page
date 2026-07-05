@@ -12,7 +12,7 @@ import { createWhatsAppLink } from "@/lib/site";
 
 const floatingCards = [
   {
-    label: "Ecommerce",
+    label: "E-Commerce",
     image: "/demo-thumbnails/fashion-store.svg",
     className: "left-[4%] top-[22%] w-[46%] rotate-[-7deg] opacity-90"
   },
@@ -175,7 +175,7 @@ export function HeroSection() {
           ))}
 
           <span className="absolute left-[12%] top-[12%] rounded-xl bg-blue-500 px-4 py-2 text-sm font-semibold shadow-glow">
-            Ecommerce
+            E-Commerce
           </span>
           <span className="absolute left-[1%] top-[42%] rounded-xl bg-violet-600 px-4 py-2 text-sm font-semibold shadow-violet-glow">
             Corporate

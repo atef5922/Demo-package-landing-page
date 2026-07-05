@@ -1,7 +1,6 @@
 export type DemoCategory =
-  | "Ecommerce"
+  | "E-Commerce"
   | "Business"
-  | "Portfolio"
   | "Education"
   | "Healthcare"
   | "Restaurant"
@@ -24,9 +23,8 @@ export interface WebsiteDemo {
 
 export const demoCategories: Array<"All" | DemoCategory> = [
   "All",
-  "Ecommerce",
+  "E-Commerce",
   "Business",
-  "Portfolio",
   "Education",
   "Healthcare",
   "Restaurant",
@@ -38,10 +36,10 @@ export const websiteDemos: WebsiteDemo[] = [
   {
     id: "demo-001",
     slug: "ecommerce-fashion-store",
-    title: "Baby Mart – Premium Kids Store",
-    category: "Ecommerce",
+    title: "Baby & Kids E-Commerce Website",
+    category: "E-Commerce",
     description:
-      "Complete online store solution featuring product catalog, shopping cart, secure checkout, and mobile-first design.",
+      "A playful and conversion-focused online store for baby products, kids fashion, toys, and family essentials.",
     thumbnail: "/demo-thumbnails/babay%20mart.webp",
     demoUrl: "https://baby-mart-nu.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
@@ -50,10 +48,10 @@ export const websiteDemos: WebsiteDemo[] = [
   {
     id: "demo-002",
     slug: "corporate-business-website",
-    title: "Nexora \u2013 Home Appliances Store",
-    category: "Ecommerce",
+    title: "Home Appliances E-Commerce Website",
+    category: "E-Commerce",
     description:
-      "Premium eCommerce website for home appliances, electronics, and smart living products with a modern shopping experience.",
+      "A modern appliance shopping platform designed for electronics, kitchen appliances, and smart living products.",
     thumbnail: "/demo-thumbnails/home%20appliances.webp",
     demoUrl: "https://nexora-home-appliances.vercel.app/",
     features: ["About", "Services", "Contact"],
@@ -62,10 +60,10 @@ export const websiteDemos: WebsiteDemo[] = [
   {
     id: "demo-009",
     slug: "electro-mart-electronics-store",
-    title: "ElectroMart \u2013 Electronics Store",
-    category: "Ecommerce",
+    title: "Electronics E-Commerce Website",
+    category: "E-Commerce",
     description:
-      "Modern eCommerce website for smartphones, laptops, headphones, smart devices, and electronic accessories with a seamless shopping experience.",
+      "A professional online tech store for gadgets, devices, accessories, and consumer electronics.",
     thumbnail: "/demo-thumbnails/electro-mart.webp",
     demoUrl: "https://amarbazar-ecommerce.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
@@ -74,16 +72,14 @@ export const websiteDemos: WebsiteDemo[] = [
   {
     id: "demo-010",
     slug: "fashion-ecommerce-website",
-    title: "Fashion eCommerce Website",
-    category: "Ecommerce",
+    title: "Fashion E-Commerce Website",
+    category: "E-Commerce",
     description:
-      "Modern online fashion store designed for clothing, footwear, accessories, and lifestyle brands with a premium shopping experience.",
+      "A premium fashion shopping website for apparel, footwear, accessories, and lifestyle collections.",
     thumbnail: "/demo-thumbnails/fashion.webp",
-    demoUrl: "https://fashion-ecommerce-12xplxipr-sifat15-5922-2244s-projects.vercel.app/",
+    demoUrl: "https://fashion-ecommerce-web-pink.vercel.app/",
     features: ["Shop", "Cart", "Checkout"],
-    isFeatured: true,
-    previewMode: "image",
-    isLiveDemoAvailable: false
+    isFeatured: true
   },
   {
     id: "demo-011",
@@ -91,22 +87,72 @@ export const websiteDemos: WebsiteDemo[] = [
     title: "Madrasa Website",
     category: "Education",
     description:
-      "A modern and feature-rich website solution for madrasas and Islamic educational institutions, designed to manage admissions, courses, notices, events, galleries, and student information professionally.",
+      "A structured educational website for madrasas with admissions, courses, teachers, notices, galleries, and events.",
     thumbnail: "/demo-thumbnails/madrasa.webp",
     demoUrl: "https://islamic-institute-website.vercel.app/",
     features: ["Admissions", "Courses", "Notices", "Events", "Gallery"],
     isFeatured: true
   },
   {
+    id: "demo-014",
+    slug: "school-college-website",
+    title: "School & College Website",
+    category: "Education",
+    description:
+      "Complete website solution for educational institutions featuring admissions, academic programs, notices, results, routines, teacher profiles, campus gallery, and responsive design.",
+    thumbnail: "/demo-thumbnails/school-collage.webp",
+    demoUrl: "https://school-college-website-one.vercel.app/",
+    features: ["Admissions", "Programs", "Notices", "Results", "Routines"],
+    isFeatured: true
+  },
+  {
+    id: "demo-012",
+    slug: "healthcare-website",
+    title: "Healthcare Website",
+    category: "Healthcare",
+    description:
+      "A professional healthcare platform for hospitals and clinics with doctors, appointments, departments, and patient support.",
+    thumbnail: "/demo-thumbnails/healthcare.webp",
+    demoUrl: "https://health-care-pro-tau.vercel.app/",
+    features: ["Appointments", "Doctors", "Patient Portal"],
+    isFeatured: true
+  },
+  {
+    id: "demo-013",
+    slug: "modern-real-estate-website",
+    title: "Real Estate Website",
+    category: "Real Estate",
+    description:
+      "A premium real estate website for property listings, project showcases, agent profiles, search filters, and inquiries.",
+    thumbnail: "/demo-thumbnails/Real%20Estate.webp",
+    demoUrl: "https://real-estate-management-liart.vercel.app/",
+    features: ["Listings", "Projects", "Inquiries"],
+    isFeatured: true
+  },
+  {
     id: "demo-004",
     slug: "hospital-clinic-website",
     category: "Business",
-    title: "Inovexa \u2013 Business & Digital Solutions",
+    title: "Corporate Business Website",
     description:
-      "Professional business Portfolio website for digital agencies, consulting firms, startups, and corporate organizations focused on growth, innovation, and lead generation.",
+      "A clean and professional business website built to showcase services, expertise, projects, and client trust.",
     thumbnail: "/demo-thumbnails/innovexa%20business.webp",
     demoUrl: "https://business-portfolio-website-eight.vercel.app/",
     features: ["Doctors", "Departments", "Contact"],
     isFeatured: true
+  },
+  {
+    id: "demo-015",
+    slug: "custom-crm-business-automation",
+    category: "Custom",
+    title: "Custom CRM & Business Automation Website",
+    description:
+      "A tailored custom web solution for growing businesses with lead management, sales pipeline, team workflows, reporting dashboards, client portals, and process automation.",
+    thumbnail: "/demo-thumbnails/crm-landing.webp",
+    demoUrl: "https://example.com/custom-crm-business-automation",
+    features: ["CRM Dashboard", "Team Workflows", "Reports", "Client Portal", "Automation"],
+    isFeatured: true,
+    previewMode: "image",
+    isLiveDemoAvailable: false
   }
 ];

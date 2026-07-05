@@ -38,7 +38,7 @@ export const websitePackages: WebsitePackage[] = [
   },
   {
     id: "starter-ecommerce",
-    name: "Starter Ecommerce Website",
+    name: "Starter E-Commerce Website",
     price: "Tk 8,500",
     bestFor: "Startups and small businesses launching online sales.",
     delivery: "3-5 Working Days",
@@ -62,7 +62,7 @@ export const websitePackages: WebsitePackage[] = [
   },
   {
     id: "business-ecommerce",
-    name: "Business Ecommerce Website",
+    name: "Business E-Commerce Website",
     price: "Tk 14,999",
     bestFor: "Growing businesses looking to scale online sales.",
     delivery: "5-7 Working Days",
@@ -88,7 +88,7 @@ export const websitePackages: WebsitePackage[] = [
   },
   {
     id: "premium-ecommerce",
-    name: "Premium Ecommerce Website",
+    name: "Premium E-Commerce Website",
     price: "Tk 19,999",
     bestFor: "Established brands and high-volume online stores.",
     delivery: "5-7 Working Days",

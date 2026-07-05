@@ -18,7 +18,7 @@ export function DemoShowcase() {
   const [emblaRef] = useEmblaCarousel({ align: "start", dragFree: true });
 
   const filteredDemos = useMemo(() => {
-    if (activeCategory === "All") return websiteDemos;
+    if (activeCategory === "All") return websiteDemos.filter((demo) => demo.category !== "Custom");
     return websiteDemos.filter((demo) => demo.category === activeCategory);
   }, [activeCategory]);
 
@@ -74,7 +74,12 @@ export function DemoShowcase() {
         </motion.div>
 
         <div className="mt-10 flex justify-center">
-          <Button variant="outline" className="rounded-full px-5">
+          <Button
+            type="button"
+            variant="outline"
+            className="rounded-full px-5"
+            onClick={() => setActiveCategory("All")}
+          >
             View All Demos
             <ArrowRight className="h-4 w-4" />
           </Button>

@@ -31,7 +31,7 @@ const contactSchema = z.object({
 type ContactFormValues = z.infer<typeof contactSchema>;
 
 const businessTypes = [
-  "Ecommerce",
+  "E-Commerce",
   "Business / Corporate",
   "Portfolio",
   "Education",
